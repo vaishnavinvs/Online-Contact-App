@@ -1,0 +1,39 @@
+<div class="cotainer">
+    <div class="row">
+        <div class="col">
+            <!-- heading -->
+    
+            <h1 class="ms-5">
+                <i class="fa-solid fa-eye text-success"></i>       
+                         View Contact Page
+            </h1>
+            <!-- dummy data -->
+            <p style="text-align: justify;" class="ms-5 me-5">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore ipsam natus explicabo nesciunt eligendi consequuntur pariatur blanditiis aliquam sapiente rerum laudantium amet temporibus, vero, obcaecati reiciendis, quod esse ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore ipsam natus explicabo nesciunt eligendi consequuntur pariatur blanditiis aliquam sapiente rerum laudantium amet temporibus, vero, obcaecati reiciendis, quod esse ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore ipsam natus explicabo nesciunt eligendi consequuntur pariatur blanditiis aliquam sapiente rerum laudantium amet temporibus, vero, obcaecati reiciendis, quod esse ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore ipsam natus explicabo nesciunt eligendi consequuntur pariatur blanditiis aliquam sapiente rerum laudantium amet temporibus, vero, obcaecati reiciendis, quod esse ab.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact view -->
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-4">
+            <!-- Contact image -->
+            <img class="contact_img" style="height: 200px; width: 200px;" [src]="contact.photo" alt="contact image">
+        </div>
+        <div class="col-8">
+            <!-- Contact details -->
+            <ul class="list-group mt-5">
+            
+                <li class="list-group-item w-50">Name :<span class="fw-bolder">  {{contact.name}}</span></li>
+                <li class="list-group-item  w-50">Email :<span class="fw-bolder"> {{contact.email}}</span></li>
+                <li class="list-group-item  w-50">Mobile :<span class="fw-bolder"> {{contact.mobile}}</span></li>
+                <li class="list-group-item w-50">Company :<span class="fw-bolder"> {{contact.company}}</span></li>
+                <li class="list-group-item w-50">Title :<span class="fw-bolder"> {{contact.title}}</span></li>
+                <li class="list-group-item w-50">Group :<span class="fw-bolder"> {{groupName}}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

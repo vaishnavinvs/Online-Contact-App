@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bungee+Inline&family=Bungee+Shade&family=Italianno&family=Monoton&family=Oswald&family=Qwigley&family=Rubik+Vinyl&family=Rye&display=swap');
+
+
+h1{
+    color: rgb(129, 89, 204);
+    font-size: 100px;
+    font-family: 'Monoton', cursive;
+}
